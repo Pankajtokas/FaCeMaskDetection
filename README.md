@@ -36,16 +36,16 @@ Today’s AI systems can go a step further and take actions based on an understa
 •	Image classification groups images into different categories.
 •	Feature matching is a type of pattern detection that matches similarities in images to help classify them.
 
-DEEP LEARNING
+	DEEP LEARNING
 Deep learning methods aim at learning feature hierarchies with features from higher levels of the hierarchy formed by the composition of lower level features. Automatically learning features at multiple levels of abstraction allow a system to learn complex functions mapping the input to the output directly from data, without depending completely on human-crafted features. Deep learning algorithms seek to exploit the unknown structure in the input distribution in order to discover good representations, often at multiple levels, with higher-level learned features defined in terms of lower-level features.
 
 The hierarchy of concepts allows the computer to learn complicated concepts by building them out of simpler ones. If we draw a graph showing how these concepts are built on top of each other, the graph is deep, with many layers. For this reason, we call this approach to AI deep learning. Deep learning excels on problem domains where the inputs (and even output) are analog. Meaning, they are not a few quantities in a tabular format but instead are images of pixel data, documents of text data or files of audio data. Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction.
-The first general, working learning algorithm for supervised, deep, feedforward, multilayer perceptrons was published by Alexey Ivakhnenko and Lapa in 1967.[27] A 1971 paper described a deep network with eight layers trained by the group method of data handling.[28] Other deep learning working architectures, specifically those built for computer vision, began with the Neocognitron introduced by Kunihiko Fukushima in 1980.[29]
-The term Deep Learning was introduced to the machine learning community by Rina Dechter in 1986,[30][16] and to artificial neural networks by Igor Aizenberg and colleagues in 2000, in the context of Boolean threshold neurons.[31][32]
+The first general, working learning algorithm for supervised, deep, feedforward, multilayer perceptrons was published by Alexey Ivakhnenko and Lapa in 1967.[27] A 1971 paper described a deep network with eight layers trained by the group method of data handling.[28] Other deep learning working architectures, specifically those built for computer vision, began with the Neocognitron introduced by Kunihiko Fukushima in 1980.
+The term Deep Learning was introduced to the machine learning community by Rina Dechter in 1986,[30][16] and to artificial neural networks by Igor Aizenberg and colleagues in 2000, in the context of Boolean threshold neurons.
 In 1989, Yann LeCun et al. applied the standard backpropagation algorithm, which had been around as the reverse mode of automatic differentiation since 1970,[33][34][35][36] to a deep neural network with the purpose of recognizing handwritten ZIP codes on mail. While the algorithm worked, training required 3 days.[37]
 By 1991 such systems were used for recognizing isolated 2-D hand-written digits, while recognizing 3-D objects was done by matching 2-D images with a handcrafted 3-D object model. Weng et al. suggested that a human brain does not use a monolithic 3-D object model and in 1992 they published Cresceptron, a method for performing 3-D object recognition in cluttered scenes. Because it directly used natural images, Cresceptron started the beginning of general-purpose visual learning for natural 3D worlds. Cresceptron is a cascade of layers similar to Neocognitron. But while Neocognitron required a human programmer to hand-merge features, Cresceptron learned an open number of features in each layer without supervision, where each feature is represented by a convolution kernel. Cresceptron segmented each learned object from a cluttered scene through back-analysis through the network. Max pooling, now often adopted by deep neural networks (e.g. ImageNet tests), was first used in Cresceptron to reduce the position resolution by a factor of (2x2) to 1 through the cascade for better generalization.
 	
-OpenCV
+	OpenCV
 ![opencv](https://user-images.githubusercontent.com/28135312/97852034-362ada80-1d1c-11eb-861c-292c8435b72a.jpg)
 OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
  
@@ -64,7 +64,7 @@ In the early days of OpenCV, the goals of the project were described as:
 •	Advance vision-based commercial applications by making portable, performance-optimized code available for free – with a license that did not require code to be open or free itself.
 
 
-TENSORFLOW
+	TENSORFLOW
 
 ![tensorflow](https://user-images.githubusercontent.com/28135312/97851971-1e535680-1d1c-11eb-85e2-56a9ca5b0489.png)
 
@@ -77,7 +77,7 @@ The name Tensor Flow derives from the operations that such neural networks perfo
 5 were from Google. Unlike other numerical libraries intended for use in Deep Learning like Theano, TensorFlow was designed for use both in research and development and in production systems, not least Rank Brain in Google search and the fun project. It can run on single CPU systems, GPUs as well as mobile devices and large-scale distributed systems of hundreds of machines.
 Starting in 2011, Google Brain built Disbelief as a proprietary machine learning system based on deep learning neural networks. Its use grew rapidly across diverse Alphabet companies in both research and commercial applications.[5][7] Google assigned multiple computer scientists, including Jeff Dean, to simplify and refactor the codebase of Disbelief into a faster, more robust application-grade library, which became TensorFlow.[8] In 2009, the team, led by Geoffrey Hinton, had implemented generalized backpropagation and other improvements which allowed generation of neural networks with substantially higher accuracy, for instance a 25% reduction in errors in speech recognition.
 
-KERAS
+	KERAS
 ![keras](https://user-images.githubusercontent.com/28135312/97851920-0b408680-1d1c-11eb-94c3-cb4c843f3f57.jpeg)
 
 Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides. Keras contains numerous implementations of commonly used neural- network building blocks such as layers, objectives, activation functions, optimizers, and a host of tools to make working with image and text data easier to simplify the coding necessary for writing deep neural network code. The code is hosted on GitHub, and community support forums include the GitHub issues page, and a Slack channel. Keras is a minimalist Python library for deep learning that can run on top of Theano or Tensor Flow. It was developed to make implementing deep learning models as fast and easy as possible for research and development. It runs on Python 2.7 or 3.5 and can seamlessly execute on GPUs and CPUs given the underlying frameworks. It is released under the permissive MIT license.
@@ -94,7 +94,7 @@ Keras was developed and maintained by François Chollet, a Google engineer using
 
 
 
-PyTorch
+	PyTorch
 
 ![pytorch](https://user-images.githubusercontent.com/28135312/97851707-b6047500-1d1b-11eb-803d-4800fc3aa614.jpg)
 
